@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+loguru = "*"
+pandas = "*"
+fuzzywuzzy = "*"
+scipy = "*"
+pytest = "*"
+pylint = "*"
+uvicorn = "*"
+sklearn = "*"
+openpyxl = "*"
+httpx = "*"
+pytest-asyncio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
